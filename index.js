@@ -4,7 +4,6 @@ fruits = [...fruits,"Raspberry"]
 console.log(fruits);
 
 // 02 unshift sans unshift
-fruits = ['Apple','Orange','Banana'],
 fruits = ["Raspberry",...fruits]
 console.log(fruits);
 
@@ -41,15 +40,11 @@ const user = {
   })
 
   // 6 - filter
-  const oddNumbers = numbers.filter(number => {
-      return number%2 != 0
-  })
+  const oddNumbers = numbers.filter(number => number%2 !== 0)
   console.log(oddNumbers);
 
   // 07 - map 
-const squareNumbers = numbers.map(number => {
-    return number * number
-}) 
+const squareNumbers = numbers.map(number => number * number) 
 console.log(squareNumbers);
 
 
